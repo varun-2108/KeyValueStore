@@ -3,7 +3,7 @@
 import json
 import os
 
-from KeyValueStore.key_value_db_1.exception import InvalidKeyType, KeyValueStoreDumpException
+from exception import InvalidKeyType, KeyValueStoreDumpException
 
 
 class KeyValueStore(object):
